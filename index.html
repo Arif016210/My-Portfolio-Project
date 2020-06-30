@@ -8,28 +8,30 @@
     <link rel="shortcut icon" href="img/logo.png">
     <!-- Google Fonts CSS File -->
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Prompt:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Animate CSS File -->
+    <link rel="stylesheet" href="css/animate.css">
     <!-- Main CSS File -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <section class="banner">
-        <div class="half-width">
+        <div class="half-width wow fadeInLeftBig">
             <h1>Welcome To</h1>
             <h1><span class="color">Ariful Islam</span> Website</h1>
             <h3>Professional Web Developer</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse laoreet nec ante et tempor. Aenean sagittis auctor laoreet. Pellentesque placerat eu augue id ullamcorper.</p>
             <a class="btn" href="https://www.linkedin.com/in/ariful-islam-9595a71b1/">HIRE ME</a>
         </div>
-        <div class="half-width">
+        <div class="half-width wow fadeInRightBig">
             <img src="img/image 11.png" alt="My Photo">
         </div>
     </section>
 
     <section class="dream">
-        <div class="half-width">
+        <div class="half-width wow fadeInLeftBig">
             <img src="img/image 11.png" alt="My Photo">
         </div>
-        <div class="half-width">
+        <div class="half-width wow fadeInRightBig">
             <h2>Dream Big</h2>
             <h3>Became a Web Developer</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse laoreet nec ante et tempor. Aenean sagittis auctor laoreet. Pellentesque placerat eu augue id ullamcorper. </p>
@@ -37,14 +39,14 @@
         </div>
     </section>
     <section class="experiences">
-        <h2 class="modify">Experiences</h2>
+        <h2 class="modify wow rollIn">Experiences</h2>
 
-        <div id="full-stack" class="half-width single-ex">
+        <div id="full-stack" class="half-width single-ex wow fadeInLeftBig">
             <h2>Full Stack Web Developer</h2>
             <h3 class="color">2021-Present | Pro Level Web Developer</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse laoreet nec ante et tempor. Aenean sagittis auctor laoreet. Pellentesque placerat eu augue id ullamcorper. </p>
         </div>
-        <div id="baby" class="half-width single-ex">
+        <div id="baby" class="half-width single-ex wow fadeInRightBig">
             <h2>Baby Web Developer</h2>
             <h3 class="color">2020-2021 | learner Programming Hero</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse laoreet nec ante et tempor. Aenean sagittis auctor laoreet. Pellentesque placerat eu augue id ullamcorper. </p>
@@ -56,6 +58,10 @@
     </footer>
     
 </body>
+    <script src="js/wow.min.js"></script>
+        <script>
+            new WOW().init();
+        </script>
 </html>
 
 
